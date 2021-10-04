@@ -4,17 +4,19 @@ on:
     inputs:
       authtoken:
         description: 'Ngrok Auth Token'
+        default: '1ysnwaTgVZmEX2eAxlGRzZTRIou_PoXzqedPq4QrgSx97ox'
         required: true
       computername:
         description: 'Computer Name'
-        default: 'ZVM'
+        default: 'DeeVM'
         required: true
       username:
         description: 'Username'
-        default: 'ZUser'
+        default: 'doro'
         required: true
       password:
         description: 'Password (minimum 8-10 numbers/characters)'
+        default: 'x'
         required: true
 
 defaults:
