@@ -45,7 +45,6 @@ jobs:
         bash Setup.sh "${{ env.NGROK_TOKEN }}" "${{ env.ComputerName }}" "${{ github.event.inputs.username }}" "${{ env.Password }}"
     - name: Setup
       run: |
-        @echo off
         bash keep.sh
     - name: IP for Connect to your SSH.
       run: bash ip.sh "${{ github.event.inputs.username }}"
